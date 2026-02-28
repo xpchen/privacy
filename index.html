@@ -1,34 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<title>Privacy Policy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>隐私政策 - PoseLink Editor</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      color: #1d1d1f;
+      background: #f5f5f7;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e0e0e5;
+      padding: 24px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: #6e6e73;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    main {
+      max-width: 780px;
+      margin: 48px auto 80px;
+      padding: 0 24px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 40px 48px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.06);
+    }
+
+    .updated {
+      display: inline-block;
+      background: #f0f4ff;
+      color: #3451b2;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #f0f0f0;
+      color: #1d1d1f;
+    }
+
+    h2:first-of-type { margin-top: 0; }
+
+    p { color: #3a3a3c; margin-bottom: 14px; }
+
+    ul {
+      padding-left: 20px;
+      color: #3a3a3c;
+      margin-bottom: 14px;
+    }
+
+    ul li { margin-bottom: 8px; }
+
+    .highlight {
+      background: #f0faf4;
+      border-left: 4px solid #34c759;
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin: 20px 0;
+      color: #1d3a27;
+    }
+
+    .highlight strong { display: block; margin-bottom: 4px; font-size: 15px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f5f5f7;
+      text-align: left;
+      padding: 10px 14px;
+      font-weight: 600;
+      color: #1d1d1f;
+      border-bottom: 2px solid #e0e0e5;
+    }
+
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #f0f0f0;
+      color: #3a3a3c;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    .badge-green { background: #e8f8ed; color: #1a7d3a; }
+    .badge-blue  { background: #e8f0ff; color: #1e3fa0; }
+
+    a { color: #0071e3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      color: #8a8a8e;
+      font-size: 13px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 28px 20px; }
+      header h1 { font-size: 22px; }
+    }
+  </style>
 </head>
 <body>
-<h1>Privacy Policy</h1>
 
-<p>This application is currently in beta testing phase.</p>
+<header>
+  <h1>PoseLink Editor</h1>
+  <p>隐私政策 · Privacy Policy</p>
+</header>
 
-<h2>Information We Collect</h2>
-<ul>
-<li>Account information (if login is required)</li>
-<li>Device information</li>
-<li>Usage analytics</li>
-<li>Crash reports</li>
-</ul>
- 
-<h2>How We Use Information</h2>
-<ul>
-<li>Improve application stability</li>
-<li>Fix bugs</li>
-<li>Enhance user experience</li>
-</ul>
+<main>
+  <div class="card">
+    <span class="updated">最后更新：2026 年 2 月 28 日</span>
 
-<h2>Data Sharing</h2>
-<p>We do not sell or share personal data with third parties.</p>
+    <div class="highlight">
+      <strong>核心承诺</strong>
+      PoseLink Editor 完全在您的设备本地运行。我们不收集、不存储、不传输任何个人数据或使用数据。
+    </div>
 
-<h2>Contact</h2>
-<p>If you have any questions, please contact: support@yourcompany.com</p>
+    <!-- 1 -->
+    <h2>1. 我们收集哪些数据</h2>
+    <p>我们<strong>不收集任何数据</strong>。PoseLink Editor 是一款纯本地运行的 macOS 应用，所有操作均在您的设备上完成，无需账号注册，无需联网。</p>
+
+    <!-- 2 -->
+    <h2>2. 权限说明</h2>
+    <p>应用在以下情况下会请求系统权限：</p>
+    <table>
+      <tr>
+        <th>权限</th>
+        <th>用途</th>
+        <th>数据去向</th>
+      </tr>
+      <tr>
+        <td><strong>摄像头</strong></td>
+        <td>在编辑器中进行实时人脸追踪预览，驱动图层动画效果</td>
+        <td><span class="badge badge-green">仅限本地处理，不存储、不上传</span></td>
+      </tr>
+      <tr>
+        <td><strong>文件访问</strong></td>
+        <td>读取您选择的媒体文件（.pag / .mp4 / .webm）及保存/打开项目文件（.lw）</td>
+        <td><span class="badge badge-green">仅访问您主动选择的文件</span></td>
+      </tr>
+    </table>
+    <p>我们遵循 Apple 应用沙盒规范，仅访问用户明确授权的文件和设备。</p>
+
+    <!-- 3 -->
+    <h2>3. 摄像头与人脸数据</h2>
+    <p>PoseLink Editor 使用摄像头进行实时人脸追踪，以预览动态图层效果。关于这一功能，我们明确声明：</p>
+    <ul>
+      <li>摄像头画面<strong>仅在本地实时处理</strong>，用于识别面部位置、旋转和缩放信息</li>
+      <li>我们<strong>不保存任何摄像头画面或视频</strong></li>
+      <li>我们<strong>不提取、不存储任何生物特征数据或人脸识别数据</strong></li>
+      <li>摄像头数据<strong>不会被发送至任何服务器或第三方</strong></li>
+      <li>关闭摄像头后，所有实时数据立即丢弃</li>
+    </ul>
+
+    <!-- 4 -->
+    <h2>4. 项目文件与导出</h2>
+    <p>您在应用中创建的项目文件（.lw）和导出的加密文件（.pdm）均保存在您自己指定的本地路径，我们无法访问这些文件的内容。</p>
+
+    <!-- 5 -->
+    <h2>5. 第三方服务</h2>
+    <p>PoseLink Editor <strong>不集成任何第三方分析、广告或追踪 SDK</strong>，不向任何第三方发送数据。</p>
+
+    <!-- 6 -->
+    <h2>6. 儿童隐私</h2>
+    <p>本应用面向一般用户，不专门针对儿童设计。我们不收集任何用户数据，因此也不存在儿童数据收集的问题。</p>
+
+    <!-- 7 -->
+    <h2>7. 隐私政策变更</h2>
+    <p>如我们更新本隐私政策，将在此页面更新日期并说明变更内容。对于不收集数据的核心承诺，我们不会做出降低保护水平的变更。</p>
+
+    <!-- 8 -->
+    <h2>8. 联系我们</h2>
+    <p>如您对本隐私政策有任何疑问，欢迎通过以下方式联系：</p>
+    <ul>
+      <li>邮箱：<a href="xpchen9999@gmail.com">xpchen9999@gmail.com</a></li>
+    </ul>
+
+    <hr style="margin: 36px 0; border: none; border-top: 1px solid #f0f0f0;" />
+
+    <!-- English Summary -->
+    <h2>English Summary</h2>
+    <p><strong>PoseLink Editor does not collect, store, or transmit any personal data.</strong> All processing happens entirely on your device. Camera access is used solely for local real-time face tracking preview and no video or biometric data is retained or uploaded. File access is limited to files you explicitly select. No third-party analytics or tracking SDKs are included.</p>
+    <p>For questions, contact <a href="xpchen9999@gmail.com">xpchen9999@gmail.com</a></p>
+  </div>
+
+  <footer>
+    <p>© 2026 PoseLink. All rights reserved.</p>
+    <p style="margin-top:6px;">
+      <a href="xpchen9999@gmail.com">联系我们</a>
+    </p>
+  </footer>
+</main>
 
 </body>
 </html>
